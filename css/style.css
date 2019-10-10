@@ -1,0 +1,49 @@
+:root{
+    --dark-color:#211717;
+    --light-color:#a34a28;
+}
+body{
+    background-color: var(--dark-color);
+}
+.main-container{
+    position: relative;
+    width:800px;
+    height: 800px;
+    border: 2px solid var(--light-color);
+    margin :0 auto;
+    font-family: 'Mansalva', cursive;
+    color:var(--light-color);
+    font-size:1.5 rem;
+}
+h1{
+    margin:0;
+    position: absolute;
+    display: inline-block;
+    bottom:5%;
+    left:20%;
+}
+.cloud{
+    position: absolute;
+
+}
+.cloud.cloud1{
+    left:10%;
+    top:5%;
+
+}
+.cloud.cloud2{
+    left:30%;
+    top:20%;
+
+}
+.cloud.cloud3{
+    left:60%;
+    top:13%;
+
+}
+.mountain{
+    position: absolute;
+    bottom: 20%;
+    left:14%;
+}
+/*https://colorhunt.co/palette/145229*/
